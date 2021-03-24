@@ -1,0 +1,59 @@
+
+ 
+body{
+    display: flex;
+    flex-direction: column;
+
+}
+ .container{
+     width: 500px;
+     background:black;
+     display:flex;
+     flex-direction: column;
+    align-self: center; 
+ }
+
+ .button-top-right{
+    display: flex;
+    padding: 4px;
+    margin: 8px;
+    flex-direction: row;
+     background:skyblue;
+     border-radius: 10%;
+     align-self: flex-end;
+ }
+
+ .text-center{
+     display: flex;
+     flex-direction: row;
+     background:greenyellow;
+     border-radius: 10%;
+     align-self: center;
+     padding: 20px;
+ }
+
+ .button-bot-left{
+    padding: 4px;
+    margin: 8px;
+    display: flex;
+    flex-direction: row;
+     background:skyblue;
+     border-radius: 10%;
+     align-self: flex-start;
+    }
+.flex-wrapping{
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+} 
+
+.flex-wrapping > .mybox {
+    width: 100px;
+    height: 100px;
+    background-color: lightgrey;
+    text-align: center;
+    line-height: 100px;
+    margin: 10px;
+    
+}
